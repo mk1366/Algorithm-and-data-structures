@@ -11,7 +11,24 @@
 //   fizz
 //   4
 //   buzz
+// module oprater
+// determin the reminder
 
-function fizzBuzz(n) {}
+function fizzBuzz(n) {
+  for (let i = 1; <= n; i++) {
+    // is the number a multiple of 3 or 5?
+    if (i % 3 === 0 && i % 5 === 0 ) {
+      console.log('fizzbuzz');
+    } else (i % 3 === 0)  {
+      // is the number a multiple of 3?
+      console.log('fizz')
+    } else (i % 5 === 0) {
+      console.log(buzz)
+    } else {
+      console.log(i)
+    }
+  }
+}
+
 
 module.exports = fizzBuzz;
